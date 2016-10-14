@@ -399,9 +399,9 @@ class SortablePane extends Component {
                 onResize={onResize}
                 isResizable={{
                   top: false,
-                  right: child.props.isResizable.x,
-                  bottomRight: child.props.isResizable.xy,
-                  bottom: child.props.isResizable.y,
+                  right: false,
+                  bottomRight: false,
+                  bottom: false,
                   left: false,
                   topRight: false,
                   bottomLeft: false,
